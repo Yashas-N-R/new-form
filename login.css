@@ -16,13 +16,13 @@
     width: 35%;
     padding: 10px;
     background-size: cover;
-    background-image: url("/images/login-form.jpg");
+    background-image: url("./images/login-form.jpg");
 
 }
 
 
 body {
-    background-image: url("/images/login.jpg");
+    background-image: url("./images/login.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

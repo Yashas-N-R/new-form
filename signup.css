@@ -16,7 +16,7 @@
     width: 35%;
     padding: 10px;
     background-size: cover;
-    background-image: url("/images/singup-form.jpg");
+
 
 }
 
@@ -46,7 +46,7 @@
 
 
 body {
-    background-image: url("./images/singup.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
 

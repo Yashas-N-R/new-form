@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/logo.jpg" alt="Logo">
+
+        </div>
+        <div class="elem">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <span>|</span>
+                <li style="border-bottom: 3px solid red"><a href="signup.html">Signup</a></li>
+                <span>|</span>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="form-container">
+        <form class="form" action="">
+            <div class="form-element">
+                <label for="name">Name :</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-element">
+                <label for="uname">User Name :</label>
+                <input type="text" id="uname">
+            </div>
+            <div class="form-element">
+                <label for="email">Email :</label>
+                <input type="email" id="email">
+            </div>
+            <div class="form-element">
+                <label for="password">Password :</label>
+                <input type="password" id="password">
+            </div>
+            <div class="form-element">
+                <label for="number">Phone number :</label>
+                <input type="number" id="number">
+            </div>
+            <div class="form-element">
+                <label for="gender">Gender :</label>
+                <div class="gender">
+                    <input type="radio" name="gender" id="gender"> Male &nbsp;
+                    <input type="radio" name="gender" id="gender"> Female
+                </div>
+            </div>
+            <div class="form-button">
+                <button>Sign Up</button>
+                <button>Cancel</button>
+            </div>
+            <div class="form-element">
+                <a href="login.html">Already Have an Account?</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
